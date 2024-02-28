@@ -71,11 +71,11 @@ function DeletarTema() {
             <p className='text-center font-semibold mb-4'>Você tem certeza de que deseja apagar o tema a seguir?</p>
 
             <div className='border flex flex-col rounded-2xl overflow-hidden justify-between'>
-                <header className='py-2 px-6 bg-black text-white font-bold text-2xl'>Tema</header>
+                <header className='py-2 px-6 bg-violet-800 text-violet-300 font-bold text-2xl'>Tema</header>
                 <p className='p-8 text-3xl bg-slate-200 h-full'>{tema.descricao}</p>
                 <div className="flex">
-                    <button className='text-white bg-pink-400 hover:bg-pink-200 w-full py-2' onClick={retornar}>Não</button>
-                    <button className='w-full text-white bg-gray-500 hover:bg-gray-200 flex items-center justify-center' onClick={deletarTema}>
+                    <button className='text-white bg-pink-600 hover:bg-pink-200 w-full py-2' onClick={retornar}>Não</button>
+                    <button className='w-full text-white bg-sky-700 hover:bg-sky-200 flex items-center justify-center' onClick={deletarTema}>
                         Sim
                     </button>
                 </div>
